@@ -1,0 +1,214 @@
+ #pre-div {
+ 	background-color: #fff;
+ 	bottom: 0;
+ 	height: 100%;
+ 	left: 0;
+ 	position: fixed;
+ 	right: 0;
+ 	top: 0;
+ 	z-index: 10000;
+ }
+ #loader{
+ 	background-image: url("../images/pizza.gif");
+ 	background-position: center center;
+ 	background-repeat: no-repeat;
+ 	height: 200px;
+ 	left: 50%;
+ 	margin: -100px 0 0 -100px;
+ 	position: absolute;
+ 	top: 50%;
+ 	width: 200px;
+ }
+ @font-face {
+    font-family: 'new_walt_disney_fontregular';
+    src: url('newwalt-webfont.woff2') format('woff2'),
+         url('newwalt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+ .navbar-default{
+ 	background-color: #fff;
+ }
+ .border{
+ 	border: solid 2px red; 
+ }
+ .borderg{
+ 	border: 2px solid green;
+ }
+ #home{
+ 	background-image: url('../images/bg1.png');
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	min-height:100vh;
+ 	max-height: 100vh;
+ 	min-width: 99vw;
+ }
+ 
+ #homerow{
+ 	background-color:rgba(0, 0, 0, 0.5);
+ 	min-height: 100vh;
+ }
+ #navlogo{
+ 	margin-top: -1.6rem;
+ 	width: 30rem;
+ 	height: 5.2rem;
+ 	max-width: 85vw;
+ }
+ .align-centerr{
+ 	/*margin-left:38%;*/
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	text-align: center;
+
+ }
+ hr{
+ 	margin-top: 0px;
+ 	border:solid 2px #b23b3f;
+ 	margin-bottom: 0px;
+ }
+ .shivaname{
+ 	font-size: 400%;
+ 	font-family: 'new_walt_disney_fontregular';
+ }
+ .shivamotto{
+ 	font-family: 'Playfair Display', serif;
+ 	text-decoration: underline;
+ }
+ .smallers{
+ 	font-size: 0.8em;
+ }
+ .shivaname, .shivamotto{
+ 	color: #ffffff;
+ }
+
+ *{
+ 	max-width: 100vw;
+ }
+ body{
+ 	overflow-x:hidden;
+ }
+
+ #aboutusdiv{
+ 	/*background-color:rgb(81, 50, 4);*/
+ 	background-color: rgb(3, 155, 230);
+ 	background-image: url('../images/aboutbg.png');
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	min-height: 90vh;
+ 	margin-top: 0px;
+ 	color: white;
+ }
+ #aboutusdiv2{
+background-color: rgba(0,0,0,0.6);
+min-height: 90vh;
+ }
+#clientsdiv{
+	background-color: rgb(59, 74, 175);
+	min-height: 100vh;
+	margin-top: 0px;
+	color: white;
+	background-image: url('../images/clientsbg.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#clientsdiv2{
+	background-color: rgba(0,0,0,0.5);
+}
+#clientsdiv .row1{
+	 margin-top: 4rem;
+}
+#clientsdiv row{
+	margin-left: 10rem;
+}
+
+#clients img {
+	min-height: 15rem;
+	margin-top: 1rem;
+	min-width: 20rem;
+	
+}
+#contactusdiv{
+	background-color: #0c4707;
+	background-image: url('../images/party.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+}
+#contactusdiv2{
+	background-color: rgba(0,0,0,0.8);
+}
+.red{
+	color: red;
+}
+.emailPic{
+	display: inline-block !important;
+	max-width: 2.5rem !important;
+}
+.bigger{
+	font-size: 120%;
+}
+.contactdetails{
+	/*margin-left: auto;
+	margin-right: auto;*/
+	text-align: center;
+}
+footer{
+	background-color: #ffffff;
+/*	background-image: url('../images/bgf1.png');*/
+	min-height: 20vh;
+	color: black;
+}
+footer img{
+	max-width: 10rem;
+	max-height: 10rem;
+	margin-right: 2.5rem;
+	margin-top: 2rem;
+}
+
+ @media (min-width: 779px){
+ 	.shivaname{
+ 	margin-top: 30vh;
+ 	font-size: 700%;
+ }
+ .shivamotto{
+ 	font-size: 200%;
+ }
+ #aboutus p{
+ 	padding-left: 6rem;
+ 	padding-right: 6rem;
+ }
+ #pic12{
+	margin-left: -6rem;
+}
+.nameonly h3{
+	margin-top: 9rem;
+	margin-right: 9rem;
+}
+.icaiimg{
+	margin-top: 5rem !important;
+}
+#contactus{
+	padding-left: 15rem;
+	padding-right: 15rem;
+}
+.row > h2{
+	font-size: 300%;
+	text-transform: uppercase;
+	margin-top: 10rem;
+}
+.contactdetails{
+	margin-top: -3rem !important;
+}
+.contactdes{
+	text-align: center;
+	margin-left: 10rem;
+}
+ }
+@media (max-width: 779px){
+	.shivaname{
+		margin-top: 12rem !important;
+	}
+}
